@@ -1,0 +1,39 @@
+{
+  "name": "generate-address",
+  "version": "1.0.0",
+  "description": "A small project on generating vanity and paper wallet with seed phrase",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deb-shopf/for-vite-labs.git"
+  },
+  "keywords": [
+    "vanity",
+    "paper",
+    "wallet",
+    "address",
+    "seedphrase"
+  ],
+  "author": "deb",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deb-shopf/for-vite-labs/issues"
+  },
+  "homepage": "https://github.com/deb-shopf/for-vite-labs#readme",
+  "dependencies": {
+    "@vite/vitejs": "^2.3.14",
+    "@vite/vitejs-ws": "^2.3.14",
+    "algorand-qrcode": "^1.1.3",
+    "bip39": "^3.0.4",
+    "bwip-js": "^3.0.4",
+    "canvas": "^2.8.0",
+    "coinkey": "^3.0.0",
+    "hdwallet": "^0.7.3",
+    "qr-image": "^3.2.0",
+    "qrcode": "^1.4.4"
+  }
+}
