@@ -10,7 +10,7 @@ npm install
 ```
 npm start
 ```
-
+the image will be generated in the output folder
 ## to generate vanity address run
 ```
 node vanity * * 
